@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    font-size: 58px;
+    margin-bottom: 70px;
+    text-shadow: 1px 0px 5px black;
+}
+.imagens {
+    border-radius: 50%;
+    display:flex ;
+    justify-content: space-around;
+}
+.imagens img{
+    border-radius: 20%;
+    width: 300px;
+   
+    height: 300px;
+    margin: 0 10px
+
+}
+body {
+    background-color: black;
+    color: white; 
+    background-image: url("site_teste/t");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header {
+    color: #FFF;
+    padding: 0 10px;
+}
+p{
+    font-size: 40px;
+    text-align: left;
+    background-color: black;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color:blueviolet
+}
+header{
+    font-size: 20px;
+    
+}
+iframe{
+    margin-left: 35%;
+}
+.cabecalho a:link{
+    color:red;
+}
+.cabecalho a:hover{
+    color:rgb(255, 255, 255);
+}

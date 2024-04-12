@@ -1,0 +1,87 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+.viloes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.viloes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.viloes img {
+    width: 300px;
+    height: 300px;
+}
+h1 {
+    text-align: center;
+    text-shadow: 3px 0px 3px #000000;
+    color:#fff;
+}
+.nomes_personagens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-top: 3px solid rgb(255, 255, 255);
+    font-size: 22px;
+    color: #f70c0c96;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.salazar {
+    order: 1; 
+}
+.krauser {
+    order: 2; 
+}
+.regenerator {
+    order: 3; 
+}
+.capa {
+    display: flex;
+    margin: auto;
+    width: 600px;
+}
+p.descricao {
+    text-align: center;
+    font-size: 18px; /
+}
+.melhor {
+    text-decoration: underline;
+    font-size: 40px;
+}
+.titulo {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+.descricao {
+    background-color: #000000;
+    font-size: 5px;
+    margin: 80px;
+}
+.descricao1 {
+    color: #fff;
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+header{
+        font-size: 20px;
+        color: #fff;
+        
+    }
+    iframe{
+        margin-left: 35%;
+    }
+    .cabecalho a:link{
+        color:red;
+        text-decoration: none;
+    }
+    .cabecalho a:hover{
+        color:blue;
+    }
+ }

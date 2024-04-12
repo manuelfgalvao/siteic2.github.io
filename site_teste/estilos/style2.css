@@ -1,0 +1,71 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
+}
+.header{
+    display: flex;
+}
+.header img{
+    width: 800px;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 2px 0px 3px yellow;
+    color:black
+
+ }
+ .chapeu{
+    display: flex;
+ }
+.chapeu img{
+    width: 500px;
+}
+.last_ride{
+    display:flex ;
+}
+.last_ride img{
+    width: 500px;
+}
+.afraid{
+    display: flex;
+}
+.afraid img{
+    width: 500px;
+}
+p{
+    font-size: 30px;
+    padding-left: 40px;
+    color:#fff;
+    background-color: black;
+}
+h3{
+    font-size: 40px;
+    padding-left: 80px;
+    color: #fff;
+    text-shadow: 6px 0px 3px black;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    background-color: black;
+}
+hr{
+    color: yellow;
+    border: 1px solid yellow;
+}
+header{
+color: #FFF;
+padding-left: 10px; 
+font-size: 20px;
+text-decoration: none;
+
+}
+.cabecalho a:link{
+        color:rgb(255, 239, 8);
+        text-decoration: none;
+    }
+    .cabecalho a:hover{
+        color:blue;
+    }
+    
